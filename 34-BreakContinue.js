@@ -8,8 +8,8 @@ while (i <= 10) {
 }
 console.log("________");
 for (let i = 0; i < 10; i++) {
-  console.log(i);
   if (i === 5) {
     continue;
   }
+  console.log(i);
 }
